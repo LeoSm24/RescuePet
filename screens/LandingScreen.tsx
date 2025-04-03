@@ -19,7 +19,7 @@ const LandingScreen = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Header />
+        <Header showAuthButtons />
 
         <View style={styles.centeredWrapper}>
           <View style={styles.centeredContent}>

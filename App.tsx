@@ -8,6 +8,7 @@ import LandingScreen from "./screens/LandingScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import PetLost from "./screens/PetLost";
+import MyReports from "./screens/MyReports"; // ruta correcta a tu pantalla
 import CreateReport from "./screens/CreateReport";
 import { decode as atob } from 'base-64';
 
@@ -58,6 +59,7 @@ export default function App() {
         <Stack.Screen name="PetLost" component={PetLost} />
         <Stack.Screen name="EditProfile" component={EditProfileScreen} />
         <Stack.Screen name="CreateReport" component={CreateReport} />
+        <Stack.Screen name="MyReports" component={MyReports} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

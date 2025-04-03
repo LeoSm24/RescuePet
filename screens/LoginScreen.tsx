@@ -34,8 +34,7 @@ const LoginScreen = () => {
     if (error) {
       Alert.alert("Error al iniciar sesión", error.message);
     } else {
-      Alert.alert("Éxito", "Sesión iniciada correctamente.");
-      // Aquí puedes redirigir al home o dashboard
+      
     }
     navigation.reset({
         index: 0,
